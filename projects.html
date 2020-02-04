@@ -103,28 +103,35 @@
             </div>
         </div>
         <div id="portfoliolist" class="prolist">
-            <div class="portfolio learning" data-cat="learning"  data-id="5">
+
+            <div class="portfolio control vision" data-cat="learning,vision,control"  data-id="1">
                 <div class="pro_box">
-                    <div class="proimg"><img src="images/pro1/BipedalWalker-v2.gif"> </div>
-                    <div class="protxt">
-                            <a href="jianjie.html" target="_blank"><font size="4">Jan.2018 — Mar.2018 A Reinforcement Learning Approach for Locomotion </font></a>
-                            <br>
-                            <p><b>Team Members: </b>CUI WANDI(wandicui@ucla.edu) ZHANG ZEYU(zeyu.zhang@cs.ucla.edu) ZHANG YUNCHU  (yunchuzhang@ucla.edu) YANG ZIQI(larittic@ucla.edu) </p> 
-                            <p><b>UCLA Details: </b><a href="http://tinyurl.com/275project">http://tinyurl.com/275project</a></p>
-                            <div style="margin-top: 10px;">
-                                <a class="detail" href="jianjie.html" target="_blank"><i class="fa fa-file-o" aria-hidden="true"></i>  Intro/Demo </a>
-                                <a href="images/pro1/report.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> paper </a>
-                                <a href="javascript:;"><i class="fa fa-file-code-o" aria-hidden="true"></i> code</a>
-                                <div class="text-right">
-                                    <a href="javascript:;" style="background: #f0ad4e;" class="fenlei">Learning</a>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="proimg">
+                    <img src="images/pro1/e.gif" style="width: 100%;height: auto;">
                 </div>
+                <div class="protxt">
+                        <a href="jianjie9.html" target="_blank"><font size="4">July 2019 —  Now   Long path algorithm for manipulation based on perception and planning</font></a> <br>
+                        <font><b>Advisor:</b> Katerina Fragkiadaki, Assistant Professor, Department of Machine Learning,and Chris Atkeson, Professor, Robotics Institute,Carnegie Mellon University</font> 
+            
+                    <div style="margin-top: 10px;">
+                        <a href="jianjie9.html" target="_blank" class="detail"><i class="fa fa-file-o" aria-hidden="true"></i>  Intro/Demo </a>  
+                        <a href="images/pro1/goal_rl.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> paper </a> 
+                        <a href="javascript:;"><i class="fa fa-file-code-o" aria-hidden="true"></i> code</a>
+                        <div class="text-right">
+                            <a href="javascript:;" style="background:#03CC85;" class="fenlei">Control</a>
+                            <a href="javascript:;" style="background:#337ab7;" class="fenlei">Vision</a> 
+                        </div>
+                    </div>
+                    
+                </div></div>
                 <div class="detail-txt">
                     <ul>
-                        <li>This project is the term project for UCLA CS275 18Winter. We explored the Reinforcement Learning approach for locomotion training. We implemented the Evolution Strategy and A3C algorithm on the BipedalWalker-v2 physical environment provided by OpenAI Gym. Both led to good results with satisfying accumulated rewards.</li>
-                        <li> Comparing the two solutions, we decided that A3C algorithm is stabler and more suited for this problem. Then we conducted further experiments on the advanced BipedalWalkerHardcore-v2 environment that has randomly generated terrain obstacles, which achieved relatively modest performance. We also explored deeper into the underlying explanation for the experiment results. </li>
+                        <li>Based on RGBD image information to construct a 3D symbolic tensor
+                        that represent the whole scene include robot and objects.</li>
+                        <li>Utilize deep reinforcement learning algorithm (DDPG+HER) to train short range manipulation policy for multiple different objects separately in relative frame.
+                        </li>
+                        <li>Utilize behavior cloning(Dagger) learning with 3d tensor information and object pose position to train single policy that could manipulate different objects for random goals in short distance.</li>
+                        <li>Utilize motion planner (model-based thought)based on 3D representation to get long path manipulation subgoals and achieve them one by one.</li>
                     </ul>
                 </div>
             </div>
@@ -164,57 +171,33 @@
                 </div>
             </div>
 
-            <div class="portfolio control" data-cat="control" data-id="9">
+
+            <div class="portfolio control vision" data-cat="control,vision"  data-id="3">
                 <div class="pro_box">
-                <div class="proimg">
-                    <img src="images/pro1/c.jpg" style="width: 100%;height: auto;"> 
+                        <div class="proimg">
+                    <img src="images/pro1/f.jpg" style="width: 100%;height: auto;">
                 </div>
                 <div class="protxt">
-                    <a href="jianjie3.html" target="_blank"><font size="4">  Sep.2014 — June 2015  Freescale Smartcar Competition</font></a> <br>
+                        <a href="jianjie6.html" target="_blank"><font size="4">June 2018 — Sept.2018    Robotics research Intern at DMAI Graduate Researcher</font></a> <br>
+                        <font><b>Advisor:</b> Yixin Zhu , Research Director and VP,  DMAI</font> 
+            
                     <div style="margin-top: 10px;">
-                        <a href="jianjie3.html" target="_blank" class=""><i class="fa fa-file-o" aria-hidden="true"></i>  Intro/Demo </a>  
-                        <a href="images/pro1/IMG_2865.jpg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> picture </a>  
+                        <a href="jianjie6.html" target="_blank" class="detail"><i class="fa fa-file-o" aria-hidden="true"></i>  Intro/Demo </a>  
+                        <a href="javascript:;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> paper </a>  
                         <a href="javascript:;"><i class="fa fa-file-code-o" aria-hidden="true"></i> code</a>
                         <div class="text-right">
-                        <a href="javascript:;" style="background:#03CC85;" class="fenlei">Control</a>
-
-                        </div>
-                    </div>
-                </div></div>
-                <div class="detail-txt">
-                    <ul>
-                        <li> Freescale Smartcar Competition  Regional Second Prize  Sep.2014 — June 2015 </li>
-                        <li> Wrote the algorithms for different stages to identify the racing track, based on PID algorithm to control  speed.</li>
-                        <li> Was responsible for hardware building, PCB design, welding and debugging.Equipped the smart car with sensors such as accelerometer to avoid obstacles and pass over the ramp.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="portfolio control" data-cat="control" data-id="8">
-
-                <div class="pro_box">
-                    <div class="proimg">
-                    <!-- <video src="images/pro1/V50815-194100.mp4" style="width: 90%;height: auto;" ></video> -->
-                    <img src="images/pro1/d.jpg" style="width: 100%;height: auto;">
-                </div>
-                <div class="protxt">
-                    <a href="jianjie4.html" target="_blank"><font size="4"> July 2015 — Aug.2015  Electronic Design Competition (Research on blind pendulum) DUTNationwide Second Prize </font></a> <br>
-                    <div style="margin-top: 10px;">
-                        <a href="jianjie4.html" target="_blank" class=""><i class="fa fa-file-o" aria-hidden="true"></i>  Intro/Demo </a>  
-                        <a href="images/pro1/2015ece.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> paper </a>  
-                        <a href="javascript:;"><i class="fa fa-file-code-o" aria-hidden="true"></i> code</a> 
-                        <div class="text-right">
                             <a href="javascript:;" style="background:#03CC85;" class="fenlei">Control</a>
+                            <a href="javascript:;" style="background:#337ab7;" class="fenlei">Vision</a> 
                         </div>
                     </div>
+                    
                 </div></div>
                 <div class="detail-txt">
                     <ul>
-                        <li> Electronic Design Competition (Research on blind pendulum) DUTNationwide Second Prize  July 2015 — Aug.2015 </li>
-                        <li> Research on blind pendulum, building model, and spatial 3-D analysis.</li>
-                        <li> Built a model of nonlinear dispersion, composition and resolution of motion, and automatic control principle.</li>
-                        <li> Collected the attitude of wind pendulum, processed the data with SCM, and regulated wind force by position from PID closed-loop.</li>
-                        <li> Made the wind pendulum swing up, perform setting-out and stay still under the control of DC blower.</li>
+                        <li>Build red-ball tracking system with several motors, 3D-printed links, Raspberry Pi and Pi camera.</li>
+                        <li>Solved Inverse kinematic problem for humanoid robot’s neck with Moveit in ROS and achieve real-time control.</li>
+                        <li>Utilized Zeromq to communicate with CV group to attain object’s dynamic information.</li>
+                        <li>Based on Monocular-ORB-Slam algorithm to scan current environment and build map for robots.</li>
                     </ul>
                 </div>
             </div>
@@ -249,35 +232,32 @@
                 </div>
             </div>
 
-            <div class="portfolio control vision" data-cat="control,vision"  data-id="3">
+                        <div class="portfolio learning" data-cat="learning"  data-id="5">
                 <div class="pro_box">
-                        <div class="proimg">
-                    <img src="images/pro1/f.jpg" style="width: 100%;height: auto;">
-                </div>
-                <div class="protxt">
-                        <a href="jianjie6.html" target="_blank"><font size="4">June 2018 — Sept.2018    Robotics research Intern at DMAI Graduate Researcher</font></a> <br>
-                        <font><b>Advisor:</b> Yixin Zhu , Research Director and VP,  DMAI</font> 
-            
-                    <div style="margin-top: 10px;">
-                        <a href="jianjie6.html" target="_blank" class="detail"><i class="fa fa-file-o" aria-hidden="true"></i>  Intro/Demo </a>  
-                        <a href="javascript:;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> paper </a>  
-                        <a href="javascript:;"><i class="fa fa-file-code-o" aria-hidden="true"></i> code</a>
-                        <div class="text-right">
-                            <a href="javascript:;" style="background:#03CC85;" class="fenlei">Control</a>
-                            <a href="javascript:;" style="background:#337ab7;" class="fenlei">Vision</a> 
+                    <div class="proimg"><img src="images/pro1/BipedalWalker-v2.gif"> </div>
+                    <div class="protxt">
+                            <a href="jianjie.html" target="_blank"><font size="4">Jan.2018 — Mar.2018 A Reinforcement Learning Approach for Locomotion </font></a>
+                            <br>
+                            <p><b>Team Members: </b>CUI WANDI(wandicui@ucla.edu) ZHANG ZEYU(zeyu.zhang@cs.ucla.edu) ZHANG YUNCHU  (yunchuzhang@ucla.edu) YANG ZIQI(larittic@ucla.edu) </p> 
+                            <p><b>UCLA Details: </b><a href="http://tinyurl.com/275project">http://tinyurl.com/275project</a></p>
+                            <div style="margin-top: 10px;">
+                                <a class="detail" href="jianjie.html" target="_blank"><i class="fa fa-file-o" aria-hidden="true"></i>  Intro/Demo </a>
+                                <a href="images/pro1/report.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> paper </a>
+                                <a href="javascript:;"><i class="fa fa-file-code-o" aria-hidden="true"></i> code</a>
+                                <div class="text-right">
+                                    <a href="javascript:;" style="background: #f0ad4e;" class="fenlei">Learning</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    
-                </div></div>
+                </div>
                 <div class="detail-txt">
                     <ul>
-                        <li>Build red-ball tracking system with several motors, 3D-printed links, Raspberry Pi and Pi camera.</li>
-                        <li>Solved Inverse kinematic problem for humanoid robot’s neck with Moveit in ROS and achieve real-time control.</li>
-                        <li>Utilized Zeromq to communicate with CV group to attain object’s dynamic information.</li>
-                        <li>Based on Monocular-ORB-Slam algorithm to scan current environment and build map for robots.</li>
+                        <li>This project is the term project for UCLA CS275 18Winter. We explored the Reinforcement Learning approach for locomotion training. We implemented the Evolution Strategy and A3C algorithm on the BipedalWalker-v2 physical environment provided by OpenAI Gym. Both led to good results with satisfying accumulated rewards.</li>
+                        <li> Comparing the two solutions, we decided that A3C algorithm is stabler and more suited for this problem. Then we conducted further experiments on the advanced BipedalWalkerHardcore-v2 environment that has randomly generated terrain obstacles, which achieved relatively modest performance. We also explored deeper into the underlying explanation for the experiment results. </li>
                     </ul>
                 </div>
             </div>
+
 
             <div class="portfolio vision" data-cat="vision" data-id="6">
                 <div class="pro_box">
@@ -331,37 +311,62 @@
                     </ul>
                 </div>
             </div>
-            <div class="portfolio control vision" data-cat="learning,vision,control"  data-id="1">
+
+            <div class="portfolio control" data-cat="control" data-id="8">
+
                 <div class="pro_box">
-                        <div class="proimg">
-                    <img src="images/pro1/e.gif" style="width: 100%;height: auto;">
+                    <div class="proimg">
+                    <!-- <video src="images/pro1/V50815-194100.mp4" style="width: 90%;height: auto;" ></video> -->
+                    <img src="images/pro1/d.jpg" style="width: 100%;height: auto;">
                 </div>
                 <div class="protxt">
-                        <a href="jianjie9.html" target="_blank"><font size="4">July 2019 —  Now   Long path algorithm for manipulation based on perception and planning</font></a> <br>
-                        <font><b>Advisor:</b> Katerina Fragkiadaki, Assistant Professor, Department of Machine Learning,and Chris Atkeson, Professor, Robotics Institute,Carnegie Mellon University</font> 
-            
+                    <a href="jianjie4.html" target="_blank"><font size="4"> July 2015 — Aug.2015  Electronic Design Competition (Research on blind pendulum) DUTNationwide Second Prize </font></a> <br>
                     <div style="margin-top: 10px;">
-                        <a href="jianjie9.html" target="_blank" class="detail"><i class="fa fa-file-o" aria-hidden="true"></i>  Intro/Demo </a>  
-                        <a href="images/pro1/goal_rl.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> paper </a> 
-                        <a href="javascript:;"><i class="fa fa-file-code-o" aria-hidden="true"></i> code</a>
+                        <a href="jianjie4.html" target="_blank" class=""><i class="fa fa-file-o" aria-hidden="true"></i>  Intro/Demo </a>  
+                        <a href="images/pro1/2015ece.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> paper </a>  
+                        <a href="javascript:;"><i class="fa fa-file-code-o" aria-hidden="true"></i> code</a> 
                         <div class="text-right">
                             <a href="javascript:;" style="background:#03CC85;" class="fenlei">Control</a>
-                            <a href="javascript:;" style="background:#337ab7;" class="fenlei">Vision</a> 
                         </div>
                     </div>
-                    
                 </div></div>
                 <div class="detail-txt">
                     <ul>
-                        <li>Based on RGBD image information to construct a 3D symbolic tensor
-                        that represent the whole scene include robot and objects.</li>
-                        <li>Utilize deep reinforcement learning algorithm (DDPG+HER) to train short range manipulation policy for multiple different objects separately in relative frame.
-                        </li>
-                        <li>Utilize behavior cloning(Dagger) learning with 3d tensor information and object pose position to train single policy that could manipulate different objects for random goals in short distance.</li>
-                        <li>Utilize motion planner (model-based thought)based on 3D representation to get long path manipulation subgoals and achieve them one by one.</li>
+                        <li> Electronic Design Competition (Research on blind pendulum) DUTNationwide Second Prize  July 2015 — Aug.2015 </li>
+                        <li> Research on blind pendulum, building model, and spatial 3-D analysis.</li>
+                        <li> Built a model of nonlinear dispersion, composition and resolution of motion, and automatic control principle.</li>
+                        <li> Collected the attitude of wind pendulum, processed the data with SCM, and regulated wind force by position from PID closed-loop.</li>
+                        <li> Made the wind pendulum swing up, perform setting-out and stay still under the control of DC blower.</li>
                     </ul>
                 </div>
             </div>
+            
+            <div class="portfolio control" data-cat="control" data-id="9">
+                <div class="pro_box">
+                <div class="proimg">
+                    <img src="images/pro1/c.jpg" style="width: 100%;height: auto;"> 
+                </div>
+                <div class="protxt">
+                    <a href="jianjie3.html" target="_blank"><font size="4">  Sep.2014 — June 2015  Freescale Smartcar Competition</font></a> <br>
+                    <div style="margin-top: 10px;">
+                        <a href="jianjie3.html" target="_blank" class=""><i class="fa fa-file-o" aria-hidden="true"></i>  Intro/Demo </a>  
+                        <a href="images/pro1/IMG_2865.jpg"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> picture </a>  
+                        <a href="javascript:;"><i class="fa fa-file-code-o" aria-hidden="true"></i> code</a>
+                        <div class="text-right">
+                        <a href="javascript:;" style="background:#03CC85;" class="fenlei">Control</a>
+
+                        </div>
+                    </div>
+                </div></div>
+                <div class="detail-txt">
+                    <ul>
+                        <li> Freescale Smartcar Competition  Regional Second Prize  Sep.2014 — June 2015 </li>
+                        <li> Wrote the algorithms for different stages to identify the racing track, based on PID algorithm to control  speed.</li>
+                        <li> Was responsible for hardware building, PCB design, welding and debugging.Equipped the smart car with sensors such as accelerometer to avoid obstacles and pass over the ramp.</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
 
     </main>
