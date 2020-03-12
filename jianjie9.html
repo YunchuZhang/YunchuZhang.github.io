@@ -66,12 +66,16 @@
             <hr style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color="#989cb9" size="3">
             <div class="detail-txt">
                 <ul >
+                <li>Motivation : Efficiently learn object-agnostic task representations</li>
                 <li>Based on RGBD image information to construct a 3D symbolic tensor
                 that represent the whole scene include robot and objects.</li>
-                <li>Utilize deep reinforcement learning algorithm (DDPG+HER) to train short range manipulation policy for multiple different objects separately in relative frame.
+                <li>Utilize deep reinforcement learning algorithm (DDPG+HER) to train experts for grasping different cups from the rim.
                 </li>
-                <li>Utilize behavior cloning(Dagger) learning with 3d tensor information and object pose position to train single policy that could manipulate different objects for random goals in short distance.</li>
-                <li>Utilize motion planner (model-based thought)based on 3D representation to get long path manipulation subgoals and achieve them one by one.</li>
+                <li>Wrote a general purpose controller which can go to any given position and
+                attain a particular orientation.</li>
+                <li>Tested naive policy compression module (tested on 10 cups - 2 clusters).</li>
+                <li>Use the 3D object tensor to do metric learning.</li>
+                <li>Mapping similar objects to correct cluster and utilize the cluster to choose policy and excute on real robot.</li>
                 </ul>
             </div>
         </article>
