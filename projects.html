@@ -107,15 +107,17 @@
             <div class="portfolio control vision" data-cat="learning,vision,control"  data-id="1">
                 <div class="pro_box">
                         <div class="proimg">
-                    <img src="images/pro1/e.gif" style="width: 100%;height: auto;">
+                    <img src="images/pro1/icra2021.gif" style="width: 100%;height: auto;">
                 </div>
                 <div class="protxt">
-                        <a href="jianjie9.html" target="_blank"><font size="4">July 2019 —  Now   Learning Object Agnostic Task Representations for Object Manipulation</font></a> <br>
-                        <font><b>Advisor:</b> Katerina Fragkiadaki, Assistant Professor, Department of Machine Learning,and Chris Atkeson, Professor, Robotics Institute,Carnegie Mellon University</font> 
+                        <a href="jianjie9.html" target="_blank"><font size="4">   
+                        <b>Visually-Grounded Library of Behaviours for Generalizing Manipulation Across Objects, Configurations, and Views</b></font></a> <br>
+                        <font><b>(In submission to ICRA 2021)</b></font><br>
+                        <font><b>Advisor:</b> Katerina Fragkiadaki, Assistant Professor, Department of Machine Learning, Chris Atkeson, Professor, Robotics Institute,Carnegie Mellon University</font> 
             
                     <div style="margin-top: 10px;">
                         <a href="jianjie9.html" target="_blank" class="detail"><i class="fa fa-file-o" aria-hidden="true"></i>  Intro/Demo </a>  
-                        <a href="images/pro1/nips.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> paper </a> 
+                        <a href="images/pro1/icra2021.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> paper </a> 
                         <a href="javascript:;"><i class="fa fa-file-code-o" aria-hidden="true"></i> code</a>
                         <div class="text-right">
                             <a href="javascript:;" style="background:#03CC85;" class="fenlei">Control</a>
@@ -126,12 +128,12 @@
                 </div></div>
                 <div class="detail-txt">
                     <ul>
-                        <li>Based on RGBD image information to construct a 3D symbolic tensor
-                        that represent the whole scene include robot and objects.</li>
-                        <li>Utilize deep reinforcement learning algorithm (DDPG+HER) to train short range manipulation policy for multiple different objects separately in relative frame.
+
+                        <li>Build a behavior selector which conditions on the invariant object properties to select the behaviors that can successfully perform the desired tasks on the object in hand</li>
+                        <li>Generated and collected a library of behaviors each of which conditions on the variable object properties to predict the manipulation actions over time.
                         </li>
-                        <li>Utilize behavior cloning(Dagger) learning with 3d tensor information and object pose position to train single policy that could manipulate different objects for random goals in short distance.</li>
-                        <li>Utilize motion planner (model-based thought)based on 3D representation to get long path manipulation subgoals and achieve them one by one.</li>
+                        <li>Extracted semantically-rich and affordance-aware view-invariant 3D object feature representations through self-supervised geometry-aware 2D-to-3D neural networks.</li>
+
                     </ul>
                 </div>
             </div>
